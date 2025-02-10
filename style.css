@@ -135,3 +135,18 @@ btn-outline {
     height: 400px;
 }
 
+/* Section One */
+.section-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+.section-one-img {
+    background-image: url(images/image2.bmp);
+    background-position: top;
+    background-size: cover;
+}
+
