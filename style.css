@@ -120,3 +120,18 @@ btn-outline {
     border-color: var(--main-color);
     color: var(--main-color);
 }
+
+.img-container {
+    border-radius: 50%;
+    box-shadow: 4px 7px 5px 2px #bcbaba;
+}
+
+.header-img {
+    border-radius: 100%;
+    background-image: url(images/image1.png);
+    background-position: top;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+}
+
