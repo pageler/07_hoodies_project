@@ -214,3 +214,62 @@ header {
     color: var(--main-color);
     border-bottom: 1px solid var(--main-color);
 }
+
+/* Customer Reviews */
+.customer-reviews {
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.customer {
+    text-align: center;
+}
+
+.customer-name {
+    font-family: var(--roboto);
+}
+
+.customers-heading {
+    font-family: var(--roboto);
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.customer-reviews .customer-description {
+    font-size: 12px;
+    margin-top: 20px;
+    max-width: 200px;
+    text-align: center;
+    margin: 10px;
+    font-family: var(--roboto);
+}
+
+.customer .customer-img .img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-size: cover;
+    /* background-position: center; */
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.customer .img-one {
+    background-image: url(images/clients/hoodieclients1.avif);
+    background-position: center;
+}
+
+.customer .img-two {
+    background-image: url(images/clients/hoodieclients2.avif);
+    background-position: top;
+}
+
+.customer .img-three {
+    background-image: url(images/clients/hoodieclients3.avif);
+    background-position: center;
+}
